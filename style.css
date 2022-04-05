@@ -1,0 +1,17 @@
+body{
+  font-style: impact;
+  text-align: center;
+  background-color: white;
+  font-family: "Garamond";
+  font-size: 40px;
+}
+
+@font-face {
+  font-family: marvel;
+  src: url(Marvel-Regular.ttf);
+}
+
+h1{
+  font-family:"Impact";
+  font-size :60px;
+}
