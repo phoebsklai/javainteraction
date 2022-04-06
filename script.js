@@ -48,6 +48,11 @@ function restyle(){
    var green = Math.random() * 255;
    var blue = Math.random() * 255;
    var outputColorString = "rgb(" + red + "," + green + "," + blue + ")";
-   fortuneOutput.style.color = outputColorString;
+  text.style.color = outputColorString;
+  var fontArray=["Sans Serif","Garamond","Times New Roman","Courier New"];
+  var randomindex1= Math.floor(Math.random()*fontArray.length);
+  var randRot = Math.random()*20;
+  text.style.fontFamily= ""+ fontArray[randomindex1] + "";
+
 
  }
